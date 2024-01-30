@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <img src="./img/menu.png" alt="" class="menu-img">
+            <img src="./img/logo.png" alt="" class="logo">
+                <!-- <ul>
+                    <li><a href="#"></a>Home</li>
+                    <li><a href="#"></a>Design</li>
+                    <li> <a href="#"></a>Market</li>
+                    <li><a href="#"></a>Contact</li>
+                </ul> -->
+                <button type="button" onclick="toggle()" id="btn"><span></span></button>
+        </nav>
+            <div class="text-container">
+                <h2>Lamp by Abbos</h2>
+                <a href="">Click me</a>
+            </div>
+    </div>
+ 
+    <div class="lamp-container">
+            <img src="./img/lamp.png" alt="" class="lamp">
+            <img src="./img/light.png" alt="" class="light" id="light">
+        <div class="light"></div>
+        <br>
+        <div class="range">
+            <span>0</span>
+            <input  type="range" step="1" min="0" max="10" value="10">
+            <span id="maxValue">10</span>
+        </div>
+    </div>
+   
+       <script src="script.js"></script>
+</body>
+
+</html>
